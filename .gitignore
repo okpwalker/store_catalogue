@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist.zip
+dist.tar.gz
+.env
+.env.local

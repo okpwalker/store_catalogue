@@ -1,0 +1,7 @@
+Item_no,description,file_Name,picture,comment,Category,asking_price,quantity,status
+FN-001,Modern Accent Chair,,,Perfect for any contemporary space,Seating,349.99,5,Available
+FN-002,Minimalist Desk,,,Features durable construction and timeless design,Tables,599.99,3,Available
+F1,Contemporary Sofa,F1.jpg,,Example: Using file_Name (auto-generates GitHub URL),Seating,1299.99,2,Available
+F2,Modern Bookshelf,F2.jpg,,Example: Using file_Name column,Storage,449.99,7,Available
+FN-005,Designer Table Lamp,,https://images.unsplash.com/photo-1676318813569-569623e88339?w=800,Example: Using picture URL column,Lighting,189.99,12,Available
+FN-006,Decorative Wall Mirror,,https://images.unsplash.com/photo-1711006777187-2c991e1b90b2?w=800,Example: Direct URL in picture column,Decor,229.99,4,Available

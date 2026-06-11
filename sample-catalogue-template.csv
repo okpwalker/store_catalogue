@@ -1,0 +1,6 @@
+id,name,category,price,description,inStock,image
+1,Modern Accent Chair,Seating,349.99,Elegant modern chair with premium upholstery and solid wood legs. Perfect for any contemporary space.,true,https://images.unsplash.com/photo-1760716478137-d861d5b354e8?w=1080
+2,Minimalist Desk,Tables,599.99,Clean-lined desk with ample workspace. Features durable construction and timeless design.,true,https://images.unsplash.com/photo-1696087225391-eb97abf5ba20?w=1080
+3,Contemporary Sofa,Seating,1299.99,Luxurious 3-seater sofa with plush cushioning and premium fabric. A statement piece for your living room.,false,https://images.unsplash.com/photo-1759722665935-0967b4e0da93?w=1080
+4,Modern Bookshelf,Storage,449.99,Spacious bookshelf with adjustable shelves. Perfect for displaying books plants and decorative items.,true,https://images.unsplash.com/photo-1755696923054-df9b046619df?w=1080
+5,Designer Table Lamp,Lighting,189.99,Sculptural table lamp with warm ambient lighting. Adds sophistication to any room.,true,https://images.unsplash.com/photo-1676318813569-569623e88339?w=1080
