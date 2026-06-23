@@ -39,6 +39,15 @@ export function CompressedImage({
           return;
         }
 
+        // Skip compression for GitHub/CDN URLs (served pre-optimised)
+        if (src.includes('githubusercontent.com') || src.includes('github.com') || src.includes('jsdelivr.net')) {
+          if (isMounted) {
+            setCompressedSrc(src);
+            setIsLoading(false);
+          }
+          return;
+        }
+
         // Load the original image
         const img = new Image();
         img.crossOrigin = 'anonymous';
@@ -138,6 +147,8 @@ export function CompressedImage({
       alt={alt}
       className={className}
       style={style}
+      loading="lazy"
+      decoding="async"
       {...rest}
     />
   );

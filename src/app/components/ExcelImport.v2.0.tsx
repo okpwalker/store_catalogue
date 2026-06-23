@@ -84,7 +84,7 @@ export function ExcelImport({ onImport }: ExcelImportProps) {
 
           if (fileName && typeof fileName === 'string' && fileName.trim().length > 0) {
             // Construct GitHub URL from file_Name
-            const baseUrl = 'https://raw.githubusercontent.com/okpwalker/store_images/main/figurines/';
+            const baseUrl = 'https://cdn.jsdelivr.net/gh/okpwalker/store_images@main/figurines/';
             image = baseUrl + fileName.trim();
           } else if (pictureUrl && typeof pictureUrl === 'string' && pictureUrl.trim().length > 0) {
             // Check if it looks like a URL

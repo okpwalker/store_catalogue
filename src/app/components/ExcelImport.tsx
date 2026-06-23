@@ -135,7 +135,7 @@ export function ExcelImport({ onImport }: ExcelImportProps) {
             // Construct GitHub URL from file_Name based on category
             const folderName = CATEGORY_FOLDER_MAP[category] ?? (category + 's');
 
-            const baseUrl = `https://raw.githubusercontent.com/okpwalker/store_images/main/${folderName}/`;
+            const baseUrl = `https://cdn.jsdelivr.net/gh/okpwalker/store_images@main/${folderName}/`;
             image = baseUrl + fileName.trim();
 
             // Debug: Log URL for first few products of each category

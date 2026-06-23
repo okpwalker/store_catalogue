@@ -52,6 +52,8 @@ export function CORSImage({ src, alt, className, style, ...rest }: CORSImageProp
         className={`${className ?? ''} ${isLoading ? 'hidden' : ''}`}
         style={style}
         crossOrigin="anonymous"
+        loading="lazy"
+        decoding="async"
         onError={handleError}
         onLoad={handleLoad}
         {...rest}
