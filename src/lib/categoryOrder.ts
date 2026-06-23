@@ -1,20 +1,20 @@
 export const CATEGORY_ORDER = [
-  'Figurine',
+  'Antique',
   'Silverware',
   'Crystalware',
   'Glassware',
+  'Figurine',
+  'Dinnerware',
   'China-Czec',
   'China-Mikasa',
   'China-Johnson',
   'China-Hugh',
   'China-Other',
-  'Dinnerware',
-  'Antique',
   'Painting',
   'Electronic',
-  'Furniture-items',
   'Housewares',
   'Appliances',
+  'Furniture-items',
 ];
 
 /**
