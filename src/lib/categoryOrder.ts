@@ -13,8 +13,8 @@ export const CATEGORY_ORDER = [
   'Painting',
   'Electronic',
   'Housewares',
-  'Appliances',
   'Furniture-items',
+  'Appliances',
 ];
 
 /**
