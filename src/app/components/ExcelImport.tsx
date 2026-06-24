@@ -119,10 +119,14 @@ export function ExcelImport({ onImport }: ExcelImportProps) {
           // Get Picture - could be URL string or will use embedded image
           const pictureUrl = row.Picture || row.picture || '';
 
-          // Determine stock status
-          const inStock = status.toLowerCase() === 'available' ||
-                         status.toLowerCase() === 'in stock' ||
-                         quantity > 0;
+          // Determine stock status — explicit "sold" always wins over quantity
+          const statusLower = status.toLowerCase();
+          const isSold = statusLower === 'sold' || statusLower === 'not available' || statusLower === 'unavailable';
+          const inStock = !isSold && (
+            statusLower === 'available' ||
+            statusLower === 'in stock' ||
+            quantity > 0
+          );
 
           // Priority:
           // 1. file_Name (construct GitHub URL)
